@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large model files
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Archives
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+# Dataset / large data folders
+subset/frames/
+subset/labels/
+data/raw/
+data/processed/
+
+# Training / experiment outputs
+runs/
+checkpoints/
+logs/
+wandb/
+cache/
+tmp/
+
+# Media
+*.mov
+*.avi
+
+# Notebook exports
+*.nbconvert.ipynb
+*.pptx
