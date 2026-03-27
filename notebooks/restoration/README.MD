@@ -1,4 +1,4 @@
-# Restoration Module — Training Strategy and Implementation
+# Restoration Training Strategy and Implementation
 
 ## Overview
 
@@ -108,11 +108,3 @@ Automatic Mixed Precision (AMP) is enabled to:
 - Reduce memory usage
 - Improve training speed
 - Maintain numerical stability
-
----
-
-## Summary
-
-The restoration module uses pretrained initialization and task-specific fine-tuning to adapt a single architecture to multiple degradation types. While deblurring and deraining perform strongly, exposure restoration remains more challenging due to its dependence on luminance and dynamic range.
-
-Overall, this approach provides a flexible and scalable solution for integrating image restoration into a full perception pipeline.
